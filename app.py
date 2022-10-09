@@ -1,7 +1,6 @@
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-from PIL import Image
 
 # loading saved models
 
@@ -31,8 +30,6 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
 
     # Page title
-    image = Image.open('logo.png')
-    st.image(image, width=700)
 
     st.title('Diabetes Prediction using ML')
 
