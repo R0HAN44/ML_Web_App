@@ -6,4 +6,5 @@
 - Aimed at minimizing the cost and time required to predict the disease.
 
 
-Website link - [Multiple-Disease_Prediction](https://r0han44-ml-web-app-app-c0wll3.streamlitapp.com/)
+Website link - [Multiple-Disease-Prediction](https://r0han44-ml-web-app-app-c0wll3.streamlitapp.com/)
+
