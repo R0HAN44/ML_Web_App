@@ -1,3 +1,1 @@
-# ML_Web_App
-
-## Multiple Disease Prediction Using ML.
+#Multiple Disease Prediction Using ML.
