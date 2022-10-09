@@ -5,11 +5,11 @@ from PIL import Image
 
 # loading saved models
 
-diabetes_model = pickle.load(open('D:/Machine Learning Project/Multiple Disease Prediction System/Saved Models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('D:/Machine Learning Project/Multiple Disease Prediction System/Saved Models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('D:/Machine Learning Project/Multiple Disease Prediction System/Saved Models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 # sidebar for navigation
@@ -31,7 +31,7 @@ with st.sidebar:
 if (selected == 'Diabetes Prediction'):
 
     # Page title
-    image = Image.open('D:/Machine Learning Project/Multiple Disease Prediction System/logo.png')
+    image = Image.open('logo.png')
     st.image(image, width=700)
 
     st.title('Diabetes Prediction using ML')
